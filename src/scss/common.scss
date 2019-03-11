@@ -1,0 +1,19 @@
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.display-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-none {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}

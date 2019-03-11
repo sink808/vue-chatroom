@@ -1,0 +1,15 @@
+.proPic {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+}
+.userRow {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  &:hover {
+    text-decoration: none;
+    background-color: lightgray;
+  }
+}

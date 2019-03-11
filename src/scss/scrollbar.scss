@@ -1,0 +1,15 @@
+.scrollbar {
+    &::-webkit-scrollbar { // scrollbar 整體
+      width: 12px;
+      background-color: #F5F5F5;
+    }
+    &::-webkit-scrollbar-thumb { // 可以拖動的部分
+      background-color: #FFF;
+      background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 25%, transparent 100%, rgba(0, 0, 0, 0.65) 75%, transparent);
+      // 0% - 25% 0.65灰  100% - 75% 透明 灰
+    }
+    &::-webkit-scrollbar-track { // 外部軌道
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+      background-color: #CCCCCC;
+    }
+}
