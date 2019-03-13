@@ -10,10 +10,10 @@ deploy to Heroku
 > or
 > yarn install
 
-## 2.run dev
-npm start
-or
-yarn start
+> ## 2.run dev
+> npm start
+> or
+> yarn start
 
-## 3.run server
-node server.js
+> ## 3.run server
+> node server.js
