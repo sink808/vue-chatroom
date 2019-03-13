@@ -3,7 +3,7 @@
 deploy to Heroku
 [Demo](https://heimerchatroom.herokuapp.com/#/)
 
-Using VueJs for framework and socket.io for binding web socket API.<br />
+Using VueJs for framework, bootstrap for style and socket.io for binding web socket API.<br />
 Just a simple front end demo that instant messaging and chat.<br />
 Without using SQL and data would be clean up after reloading page.<br />
 
