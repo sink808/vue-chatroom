@@ -5,7 +5,7 @@
       <img :src="require(`../../../assets/proPic/default.jpg`)" class="proPic">
       {{contact}}
     </div>
-    <div style='height: 65%'
+    <div id="mesList" style='height: 65%'
          class="message scrollbar">
       <template v-for='chat in chats'>
         <div :key='chat.id'
@@ -97,6 +97,12 @@ export default {
       this.textArea = ''
       e.preventDefault() // 避免enter產生的空白換行
       this.$socket.emit('message', messageItem)
+    },
+    scrollToBottom: function () { // scroll bar至於最底
+      this.$nextTick(() => {
+        const div = document.getElementById('mesList')
+        div.scrollTop = div.scrollHeight
+      })
     }
   },
   sockets: {
@@ -106,6 +112,9 @@ export default {
     message (data) {
       console.log(data)
     }
+  },
+  watch: {
+    'chats': 'scrollToBottom'
   }
 }
 </script>
