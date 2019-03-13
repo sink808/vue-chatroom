@@ -5,15 +5,15 @@ deploy to Heroku
 
 > a sample for chatroom
 
-1.install dependence
+#1.install dependence
 npm install
 or
 yarn install
 
-2.run dev
+#2.run dev
 npm start
 or
 yarn start
 
-3.run server
+#3.run server
 node server.js
