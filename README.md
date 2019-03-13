@@ -1,5 +1,8 @@
 # vue-chatroom
+
+deploy to Heroku
 [Demo](https://heimerchatroom.herokuapp.com/#/)
+
 > a sample for chatroom
 
 ## Build Setup
