@@ -5,10 +5,10 @@ deploy to Heroku
 
 > a sample for chatroom
 
-## 1.install dependence
-npm install
-or
-yarn install
+> ## 1.install dependence
+> npm install
+> or
+> yarn install
 
 ## 2.run dev
 npm start
